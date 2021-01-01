@@ -1,6 +1,7 @@
 import React from 'react';
 import Wrapper from './components/Wrapper';
 import Header from './components/Header';
+import Main from './components/Main';
 import './App.css';
 
 function App() {
@@ -9,6 +10,9 @@ function App() {
       <Wrapper>
       <Header>
       </Header>
+      <Main>
+
+      </Main>
       </Wrapper>
     </div>
   );

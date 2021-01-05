@@ -14,9 +14,6 @@ const SearchName = (props) => {
           className="form-control"
           placeholder="Type an Employee's Last Name to begin"
         />
-        <button type="submit" className="btn btn-success">
-          Search
-        </button>
       </div>
     </form>
 

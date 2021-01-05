@@ -1,10 +1,8 @@
 form.search {
     overflow: auto;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
-form.search button[type="submit"] {
-    float: right;
-    margin-top: 10px;
-    background-color: #1985a1;
+.form-group {
+    margin: 2rem;
 }

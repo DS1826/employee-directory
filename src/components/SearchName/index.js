@@ -6,13 +6,13 @@ const SearchName = (props) => {
     return (
         <form className="search">
       <div className="form-group">
-        <label htmlFor="language">Search by Employee Name:</label>
+        <label htmlFor="language">Search by Employee Last Name:</label>
         <input
           onChange={props.handleSearchChange}
           aria-label="Search"
           type="search"
           className="form-control"
-          placeholder="Type an Employee Name to begin"
+          placeholder="Type an Employee's Last Name to begin"
         />
         <button type="submit" className="btn btn-success">
           Search

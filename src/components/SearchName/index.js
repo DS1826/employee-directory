@@ -1,15 +1,14 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import './style.css';
-import EmployeeContext from '../../utils/EmployeeContext';
 
-const SearchName = () => {
-    const context = useContext(EmployeeContext);
+const SearchName = (props) => {
+    
     return (
         <form className="search">
       <div className="form-group">
         <label htmlFor="language">Search by Employee Name:</label>
         <input
-          onChange={e => context.handleSearchChange(e)}
+          onChange={props.handleSearchChange}
           aria-label="Search"
           type="search"
           className="form-control"

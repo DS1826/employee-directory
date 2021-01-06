@@ -37,4 +37,5 @@ This project was created through the guidance of my GW Bootcamp instructor, BCS 
 * [Stackoverflow](https://stackoverflow.com/)
 
 ## Contact
+This application was developed by @DS1826.
 

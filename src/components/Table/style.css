@@ -6,4 +6,10 @@
 
 .name-sort {
     cursor: pointer;
+    font-family: FontAwesome;
+
 }
+ i {
+    font-style: normal;
+    padding-left: 10px;
+ }

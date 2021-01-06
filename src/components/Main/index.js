@@ -42,6 +42,28 @@ class Main extends React.Component {
         this.searchLastName(event.target.value);
     }
 
+    sortByName = () => {
+        const filtered = this.state.displayUsers;
+        if (this.state.order === "asc") {
+            const sorted = filtered.sort((a, b) => (a.name.last > b.name.last) ? 1 : -1)
+            console.log(sorted)
+
+            this.setState({
+                filteredEmployees: sorted,
+                order: "desc"
+            })
+        } else {
+
+            const sorted = filtered.sort((a, b) => (a.name.last > b.name.last) ? -1 : 1)
+            console.log(sorted)
+
+            this.setState({
+                filteredEmployees: sorted,
+                order: "asc"
+            })
+
+        }
+    }
 
     render() {
         return (
@@ -49,7 +71,9 @@ class Main extends React.Component {
             <SearchName handleSearchChange={this.handleSearchChange}>
 
             </SearchName>
-                <Table displayUsers={ this.state.displayUsers }/>
+                <Table displayUsers={ this.state.displayUsers }
+                    sortByName={this.sortByName}
+                />
             </div>
         );
     }

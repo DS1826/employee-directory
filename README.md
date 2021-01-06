@@ -4,7 +4,7 @@
 This React application enables an employee or manager to view non-sensitive data about other employees. It includes functionality that allows the employee or manager to filter or sort by the employee's last name.
 
 ## Screenshot
-<img width="1337" alt="Screen Shot 2021-01-06 at 10 11 47 AM" src="https://user-images.githubusercontent.com/67653440/103784230-b238eb80-5007-11eb-9c05-937a57b8eb24.png">
+<img width="1328" alt="Screen Shot 2021-01-06 at 10 11 47 AM" src="https://user-images.githubusercontent.com/67653440/103784889-7eaa9100-5008-11eb-9429-3de00d2d346e.png">
 
 ## Installation
 In the project directory, you can run the following command to run the app in the development mode.

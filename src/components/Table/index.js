@@ -8,7 +8,7 @@ const Table = (props) => {
       <thead className="table-head">
         <tr>
           <th>Photo</th>
-          <th>Name</th>
+          <th className="name-sort"><span onClick={props.sortByName}>Name</span></th>
           <th>Phone</th>
           <th>Email</th>
         </tr>
